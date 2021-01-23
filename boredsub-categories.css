@@ -1,0 +1,383 @@
+*{
+	font-family:Verdana,Comic Sans MS;
+	
+}
+
+body{
+	margin:1%;
+	background:rgba(0,0,0,0.6); 
+}
+.cat .cat1:hover{
+	
+	box-shadow:0px 8px 4px 4px rgba(223, 223, 222, 0.7);
+}
+
+h3{
+	text-align:center;
+	display:block;
+	text-transform:uppercase;
+	font-size:160%;
+	color:#C3C48D;
+	margin:0 0 3% 10%;
+	line-height:100px;
+}
+.cat .cat1{
+
+	display:inline-block;
+	height:150px;
+	width:25%;
+	border:1px solid white;
+	margin:0 1px 3% 2%;
+	box-shadow:0px 4px 2px 2px rgba(0,0,0,0.6);
+	border-radius:4px;
+	min-width:140px;
+	max-width:215px;
+}
+
+.cat .cat1 p{
+	word-wrap:break-word;
+	font-weight:bold;
+    position:;
+	display:inline-block;
+	justify-content:center;
+	margin:1% 1% 0 0;
+	border-radius:2px;
+	text-align:center;
+	font-size:95%;
+	color:#D1E8E2;
+	background:rgba(0,0,0,0.7);
+	text-transform:uppercase;
+	max-width:100%;
+}
+
+.cat .cat1 ul li{
+	display:none;
+	position:absolute;
+	color:#D1E8E2;
+	margin-top:0.25%;
+	margin-left:0.25%;
+	background:#376E6F;
+}
+.cat .cat1:hover ul li{
+	display:inline-block;
+	font-size:100%;
+	max-width:40%;
+	border-radius:4px;
+	word-wrap:break-word;
+	text-overflow: clip;
+    white-space: normal;
+	transform:scale(1);
+	padding:1%;
+}
+
+.cat{
+	background:url('https://cdn.dribbble.com/users/370759/screenshots/1796042/untitled-1.gif');
+	border-radius:10px;
+	height:100%;
+}
+body{
+	margin:1%;
+	background:#1F363D;
+	 
+}
+header{
+	background:url('https://thumbs.gfycat.com/BountifulCookedAnglerfish-max-1mb.gif');
+	height:100%;
+	background-size:cover;
+	border-radius:10px;	
+}
+	
+::-webkit-scrollbar{
+	background:#1a1319;
+}
+::-webkit-scrollbar-button{
+	display:none;
+}
+::-webkit-scrollbar-thumb{
+	background:#61892F;
+	border-radius:8px;
+}
+::-webkit-scrollbar-corner{
+	border-radius:4px;
+}
+.menu ul ul::-webkit-scrollbar{
+	visibility:hidden;
+	
+}
+.menu ul ul::-webkit-scrollbar-thumb{
+	visibility:hidden;
+	
+}
+.menu{
+	transform:scale(1.1);
+	z-index:100;
+	
+	
+}
+.menu.hide{
+	transform:translateY(-100%);
+}
+#topright{
+	display:inline-block;
+	margin:5px;
+	font-size:30px;
+	width:auto;
+	text-decoration:none;
+	color:#ccc;
+	padding:5px;
+	background:black;
+	border-radius:3px;
+}
+#topright:hover{
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+#topright:hover span{
+	background:white;
+	color:black;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+.scroll::-webkit-scrollbar-track {
+  display:none !important;
+}
+
+.menu{
+	display:block;
+	background:black;
+	float:right;
+	position:fixed;
+	background:rgba(0,0,0,0.9);
+	height:100%;
+	width:200px;
+	top:6%;
+	right:-240px;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.menu:hover{
+	right:0px;
+}
+
+.menu ul{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+.menu ul{
+	position:absolute;
+	overflow:scroll;
+	height:100%;
+}
+.menu ul li{
+	width:180px;
+	text-decoration:none;
+	border-bottom:1px solid white;
+	padding:20px 15px 4px 1px;
+	list-style-type:none;
+	overflow:hidden;
+	
+}
+.menu ul li a{
+	color:white;
+	text-decoration:none;
+}
+.menu ul li:hover a{
+	color:black;
+}
+.menu ul li:hover{
+	background:white;
+}
+
+.menu ul li:nth-child(3) ul li{
+	padding:10%;
+}
+.menu ul li:nth-child(3):hover ul li a{
+	color:white;
+}
+
+.menu ul li:nth-child(3):hover ul li:hover a{
+	color:black;
+}
+.menu ul li:nth-child(3):hover ul li:hover a{
+	background:white;
+}
+.menu #topright{
+	position:absolute;
+	right:250px;
+	top:0;
+	
+}
+.menu #topright span{
+	display:block;
+	height:2px;
+	width:20px;
+	margin:1px;
+	border:2px solid white;
+	border-radius:5px;
+	background:white;
+}	
+h1{
+	color: #9EC1A3;
+	font-size:4em;
+	margin:2%;
+	padding:0;
+	letter-spacing:0.2rem;
+	display:inline-block;
+	line-height:1em;
+}
+h2{
+	color:#E5D1D0;
+	font-size:250%;
+	margin:2% 5% 5% 1%;
+}
+#randomize{
+  position:relative;
+  margin-left:65%;
+  display:inline-block;
+  color:white;
+  text-transform:uppercase;
+  transition:0.3s;
+  text-decoration:none;
+  letter-spacing:3px;
+  overflow:hidden;
+  padding:5px 10px;
+  border-radius:3px;
+  border-bottom:1px inset #509fab;
+  box-shadow: 0 8px 6px -6px #509fab;
+  margin-bottom:1%;
+  font-weight:bold;
+ }
+#randomize:hover{
+  box-shadow: 0 0 10px #509fab, 0 0 20px #509fab,0 0 40px #509fab,0 0 80px #509fab; 
+transition-delay:0.25s;
+  background:#509fab;
+  color:black;
+}
+#randomize span{
+  position: absolute;
+  display:block;
+}
+#randomize span:nth-child(1) {
+  width:100%;
+  height:2px;
+  top:0;
+  left:-100%;
+  background:linear-gradient(90deg,transparent,#509fab);
+}
+#randomize:hover span:nth-child(1){
+  left:100%;
+  transition:0.5s;
+ }
+
+#randomize span:nth-child(3) {
+  width:100%;
+  height:2px;
+  bottom:0;
+  right:-100%;
+  background:linear-gradient(270deg,transparent,#509fab);
+}
+#randomize:hover span:nth-child(3){
+  right:100%;
+  transition:0.5s;
+ }
+
+#randomize span:nth-child(2) {
+  width:2px;
+  height:100%;
+  right:0;
+  top:-100%;
+  background:linear-gradient(180deg,transparent,#509fab);
+}
+#randomize:hover span:nth-child(2){
+  top:100%;
+  transition:0.75s;
+ }
+
+#randomize span:nth-child(4) {
+  height:100%;
+  width:2px;
+  left:0;
+  bottom:-100%;
+  background:linear-gradient(360deg,transparent,#509fab);
+}
+#randomize:hover span:nth-child(4){
+  bottom:100%;
+  transition:1s;
+ }
+ #about{
+	 font-size:60%;
+ }
+ @media screen and (min-width: 550px){
+	 	#randomize{
+	margin-left:70%;
+	
+}
+
+ }
+ 
+@media screen and (min-width: 700px){
+	h1{
+		margin-bottom:1%;
+		margin-top:1%;
+	}
+	.cat .cat1{
+	height:180px;
+	width:22%;
+	margin:0 1px 3% 2%;
+	}
+	
+	#randomize{
+	margin-left:75%;
+	
+}
+ #about{
+	 font-size:65%;
+ }
+}
+@media screen and (min-width: 850px){
+		#randomize{
+	margin-left:80%;
+	
+}
+	h1{
+		margin-bottom:1%;
+		margin-top:1%;
+	}
+
+}
+@media screen and (min-width: 1000px){
+	.cat .cat1{
+	height:180px;
+	width:20%;
+	margin:0 1px 3% 2%;
+	}
+		#randomize{
+	margin-left:80%;
+	
+}
+h1{
+		margin-bottom:1%;
+		margin-top:1%;
+	}
+	.menu{
+		top:7%;
+	}
+	 #about{
+	 font-size:70%;
+ }
+}
+@media screen and (min-width: 1200px){
+	#randomize{
+	margin-left:85%;
+	
+}
+.menu{
+		top:7%;
+	}
+
+}

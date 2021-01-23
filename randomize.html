@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<meta charset="UTF-8">
+
+<meta name="description" content="Go Through,the differernt websites of your desired category randomly which will blow off your bordem."/>
+<meta name="keywords" content="Get rid of boredom at being bored.Now get some random websites off your desired category to manage your time being bored."/>
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow" />
+
+<link rel="icon" type="image/png" href="bb1.png"/ style="background-position:center;">
+<meta property="og:image" content="https://drive.google.com/uc?id=1sxc4urprJ46Oqiz7LnGOyhgFwsZlpxsZ" />
+<meta property="og:description" content="Manage your free time/the time when you are Being bored with some super cool websites which you would love to checkout."/>
+<meta property="og:url" content="https://beingbored.site" />
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<link rel="icon" type="image/png" href="bb1.png"/ style="background-position:center;">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet"  href="randomize.css"/>
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> 
+<script defer src="/your-path-to-fontawesome/js/all.js"></script>
+<title>BeingBored.site</title>
+<script type="text/javascript">
+    function get_values()
+    {
+        var a = document.getElementById('multiple_values').value;
+        var array=a.split(",");
+        var st='';
+        for(i=0;i<array.length;i++)
+        {
+            st=st+array[i];
+        }
+        //alert(array[2]);
+       
+	var previous=[];
+	var vl = array[Math.floor(Math.random() * array.length)];
+	var val= "https://"+ vl;
+	var res = val.slice(8);
+	var res = "website : " + res;
+	for (i=0;i<=previous.length;i++){
+	if(val == previous[i]){
+    continue;
+	}
+	else{
+	document.getElementById('myIframe').src = val;
+	previous[previous.length+1]=val;
+	document.getElementById('lin').href = val;
+	break;
+	}
+	}
+	document.getElementById("di").innerHTML=res;
+	
+  }
+  
+   </script>
+</head>
+<body>
+<header>
+<h1 style="font-family: 'Permanent Marker', cursive;">being bored</h1>
+
+
+<div class="menu">
+	<div id="topright" onclick="document.getElementById("subnav") .classList.toggle("active");" >
+	<span></span>
+	<span></span>
+	<span></span>
+	</div >
+    <ul>
+	<li onclick="location.href=('index.html');" style="cursor: pointer;" ><a href="index.html" target="_self" >Home</a></li>
+          <li  onclick="location.href=('About-us.html');" style="cursor: pointer;"><a href="About-us.html" target="_self" >About us</a></li>
+
+        <li  onclick="location.href=('');" style="cursor: pointer;"><a href=""  target="_self" >categories</a>	           <ul>
+        <li  onclick="location.href=('Categories-social-Media.html');" style="cursor: pointer;"><a  href="Categories-social-Media.html" target="_self" >Social Media</a></li>
+        <li onclick="location.href=('Categories-Books.html');" style="cursor: pointer;"><a href="Categories-Books.html" target="_self" >books</a></li>
+        <li onclick="location.href=('Categories-Games.html');" style="cursor: pointer;"><a  href="Categories-Games.html" target="_self" >games</a></li>
+		<li  onclick="location.href=('Categories-Education.html');" style="cursor: pointer;"><a  href="Categories-Education.html" target="_self" >education</a></li>
+        <li onclick="location.href=('Categories-Media.html');" style="cursor: pointer;"><a  href="Categories-Media.html" target="_self" >Media</a></li>
+		<li  onclick="location.href=('Categories-Fun-sites.html');" style="cursor: pointer;"><a  href="Categories-Fun-sites.html" target="_self" >fun-sites</a></li>
+        <li onclick="location.href=('Categories-Ecommerce.html');" style="cursor: pointer;"><a  href="Categories-Ecommerce.html" target="_self" >e-commerce</a></li>
+		<li onclick="location.href=('Categories-skill-development.html');" style="cursor: pointer;"><a  href="Categories-skill-development.html" target="_self" >skill development</a></li>
+        <li onclick="location.href=('Categories-News.html');" style="cursor: pointer;"><a  href="Categories-News.html" target="_self" >news</a></li>
+		<li onclick="location.href=('Categories-Movies.html');" style="cursor: pointer;"><a  href="Categories-Movies.html" target="_self" >movies</a></li>
+        <li  onclick="location.href=('Categories-Blogs.html');" style="cursor: pointer;"><a  href="Categories-Blogs.html" target="_self" >Blogs</a></li>
+            </ul></li>
+        
+            </ul></li>
+		
+      
+ 
+    </ul>
+</div>
+</div>
+</header>
+<section>
+<aside id="aside1">
+<select  id="multiple_values" >
+    <option value="">
+        Select
+    </option>
+    <option value='huffingtonpost.com,cupofjo.com,goop.com,primermagazine.com,barefootblonde.com,camillestyles.com,lovetaza.com,theskinnyconfidential.com,theblondesalad.com,stylishbynature.com,thesundaychapter.com,pumpsandiron.com,witanddelight.com,getbusylivingblog.com,thirteenthoughts.com,apieceoftoastblog.com,blissfulgal.com,pouted.com,vervemagazine.in,onbetterliving.com,consciouslifestylemag.com'
+value='theverge.com,wired.com,cnet.com,techcrunch.com,engadget.com,mashable.com,venturebeat.com,zdnet.com,gizmodo.com,arstechnica.com,thenextweb.com,9to5mac.com,techrepublic.com,androidauthority.com,recode.net,digitaltrends.com,geekwire.com,appleinsider.com,bgr.in/,hackernoon.com,macrumors.com,androidcentral.com,siliconangle.com,howtogeek.com,extremetech.com,computerworld.com,slashgear.com'
+value='marcandangel.com,tinybuddha.com,zenhabits.net,addicted2success.com,positivityblog.com,mindbodygreen.com,dumblittleman.com,lifehack.org,michaelhyatt.com,liveboldandbloom.com,thinksimplenow,briantracy.com,gretchenrubin.com,pickthebrain.com,advancedlifeskills.com,prolificliving.com,chrisguillebeau.com,thechangeblog.com'
+value='cracked.com,hyperboleandahalf.blogspot.com,failblog.cheezburger.com,engrish.com,9gag.com,explosm.net,vsauce.com,laughingsquid.com,brainpickings.org,boredpanda.com,buzzfeed.com,theoatmeal.com,mentalfloss.com,oddee.com'
+value='bplans.com,iwillteachyoutoberich.com,copyblogger.com,wistia.com,moz.com/blog,neilpatel.com/blog/,blog.hubstaff.com/,seths.blog/,socialmediaexaminer.com/,smallbiztrends.com,hubspot.com,shopify.in/blog,quickbooks.intuit.com/in/resources,contently.com/strategist,buffer.com/resources,marketingprofs.com'
+Value='danflyingsolo.com,abrokenbackpack.com,travelepisodes.com,iflymagazine.com,maptia.com,anotherescape.com,anywhereweroam.com,camelsandchocolate.com,alongdustyroads.com,cookiesound.com,indietraveller.co,lilistravelplans.com,travel-break.net,drewbinsky.com,mylifesamovie.com,nomadicboys.com,theblondeabroad.com,theblogabroad.com,backpackerbanter.com'
+Value='shape.com,artofhealthyliving.com,fitnessmagazine.com,acefitness.org/education-and-resources/professional/expert-articles,wellandgood.com,health.com,time.com/tag/dietnutrition,nutritionstripped.com,eatingbirdfood.com,healthline.com/nutrition,bitesofwellness.com'
+value='kotaku.com,vg247.com,engadget.com,ukresistance.co.uk,theguardian.com/technology/gamesblog,toucharcade.com,destructoid.com,shacknews.com,gonintendo.com,thatvideogameblog.com,pushsquare.com,gameinformer.com,videochums.com,rpgsite.net,eurogamer.net,novacrystallis.com'
+value='learningsolutionsmag.com,learningrebels.com/blog,design4performance.com,robhubbard.wordpress.com,blog.torchlms.com/archive/2012/07,theelearningcoach.com,bozarthzone.blogspot.com,elearninfo247.com,blog.cathy-moore.com,ryan2point0.wordpress.com'
+>Blogs</option>
+
+    <option value='boredbutton.com,interfacelift.com,snopes.com,instructables.com,lifehacker.com,addictivetips.com,tastedive.com,mint.com,retailmenot.com,dafont.com,lcdtech.info/en/tests/dead.pixel.htm,freerice.com,goodvsevil.co,rainymood.com,thisissand.com,ineedaprompt.com,weavesilk.com,sleepyti.me,jogl.io,shutupandtakemymoney.com,shadyurl.com,staggeringbeauty.com,classicreload.com/oregon-trail.html,wikipedia.org,maps.google.com/maps/ms?msa=0&msid=211236271092802896621.0004c6c691d53c68fabf9&ie=UTF8&t=h&ll=28.297126,-81.079102&spn=0.725507,1.645203&z=9&output=embed,animalplanet.com/tv-shows/puppy-bowl/games-and-more/kitten-cam,imgur.com,space.com,mix.com,howstuffworks.com,theonion.com,the-toast.net,xkcd.com,wizardingworld.com,adszeke.com/gravity'
+value='m.youtube.com/user/LEGO/videos,asoftmurmur.com,apartmenttherapy.com,ocearch.org,supercook.com,waitbutwhy.com,peopleofwalmart.com,awkwardfamilyphotos.com,autocorrectfail.org,hackertyper.net,theuselessweb.com,randomthingstodo.com,donothingfor2minutes.com,thewikigame.com,pointerpointer.com/?ref=producthunt,weirdorconfusing.com,findtheinvisiblecow.com,fallingfalling.com,eelslap.com,omfgdogs.com,koalastothemax.com,benedictcumberbatchgenerator.tumblr.com'
+value='cracked.com,hyperboleandahalf.blogspot.com,failblog.cheezburger.com,engrish.com,9gag.com,explosm.net,vsauce.com,laughingsquid.com,brainpickings.org,boredpanda.com,buzzfeed.com,theoatmeal.com,mentalfloss.com,oddee.com'
+>Fun-sites</option>
+
+	<option value='freepcgamers.com,gamers-academy.softonic.com,reloaded.org,fullgames.sk,mmogames.com,homeoftheunderdogs.net,miniclip.com/games/en,pogo.com,addictinggames.com,agame.com,boredgames.com,playretrogames.com,poki.com,kongregate.com,freeonlinegames.com,shockwave.com,aol.com/games,freearcade.com,armorgames.com,king.com,y8.com,girlsgogames.com,gamehouse.com,gamesgames.com,a10.com,cartoonnetwork.com/games,pokemonshowdown.com,snes.party,poptropica.com,sporcle.com,cookie.com,flashbynight.com,arkadium.com'
+ > Games</option>
+
+<option
+value='timesofindia.indiatimes.com,ndtv.com,indiatoday.in,indianexpress.com,thehindu.com,news18.com,firstpost.com,business-standard.com,dnaindia.com,deccanchronicle.com,oneindia.com,scroll.in,financialexpress.com,thehindubusinessline.com,dkoding.in,outlookindia.com,thequint.com,thebetterindia.com,telanganatoday.com,freepressjournal.in,tentaran.com,socialsamosa.com,asianage.com,topyaps.com,dailyexcelsior.com,topblogmania.com,chandigarhmetro.com,techgenyz.com,orissapost.com,teluguglobal.in'
+value='teluguglobal.in,andhraheadlines.com,ap7am.com,telugumirchi.com/telugu,telugu.webdunia.com,teluguone.com,telugu.greatandhra.com,telugutimes.net,m.eenadu.net,sakshi.com'
+value='abplive.com,ndtv.com,zeenews.india.com,aajtak.intoday.in,bhaskar.com,jagran.com,indiatvnews.com,bbc.com,news18.com,republicworld.com'
+value='inquilab.com,munsifdaily.in/epapers,epaper.taasir.com,siasat.com,urdutimesdaily.com'
+value='dailythanthi.com,maalaimalar.com,dinakaran.com,dinamalar.com,dinamani.com'
+>News </option>
+
+
+<option value='movieminions.co,hdpopcorns.fun,moviescouch.biz,seehd.world,6movierulz.com,yts.mx,ww2.hdfriday.com,mkvcage.site'
+value='teluguprazalu.com/telugu-movies/,naarockerss.com,a2movies.mobi,mycoolmoviez.website,moviezwaphd.site,telugupalaka.in,www2.123movierulz.cc,hdmovies.pk,todaypk.tech,filmywap.one/the-gentlemen-full-movie-download,besthdmovies.top,download-anymovie.com,themoviesflix.com,mp4moviez.one,gofilms4u.ws,themoviesflix.com,hdmoviesmaza.live,oceanofmovies.cc,katmoviehd.world,filmywap.one/the-gentlemen-full-movie-download,www2.123movierulz.cc,besthdmovies.top,mkvcage.site,moviesbaba.kim,6movierulz.com,a2movies.mobi,todaypk.tech,tamilrockermovies.co,isaiminiweb.com/tamilgun-hd-movies,a2movies.mobi,www2.123movierulz.cc,6movierulz.com,todaypk.tech,themoviesflix.com,tamilyogi.cool/cooltamil,dvdwap.store,dvdplay.run,www2.123movierulz.cc,a2movies.mobi,themoviesflix.com,6movierulz.com6movierulz.com,todaypk.tech'
+>Movies </option>
+
+
+<option value='oneminutemusiclesson.com,musictheory.net,teoria.com,emusictheory.com,jazzguitar.be,dolmetsch.com/theoryintro.htm,8notes.com/theory,online.berklee.edu/free-music-course-resources,chordmaps.com,tonalcentre.org,ableton.com/en/blog/learn-music-in-your-browser,lightnote.co,musicnotes.com/now/tips/how-to-read-sheet-music'
+value='learningmusic.ableton.com,musictech.net,attackmagazine.com'
+value='learntodance.com,skillshare.com,steezy.co,dance.lovetoknow.com,superprof.co.in,danceparent101.com,liveabout.com,learntodancetango.com,addicted2salsa.com'
+value='danceplug.com,dancewithmadhuri.com,udemy.com,dancemagazine.com,theverbstudio.com'
+value='learnalanguage.com,openculture.com,surfacelanguages.com,internetpolyglot.com,streema.com,duolingo.com,livemocha.co,babbel.com,busuu.com,bbc.co.uk/languages,effectivelanguagelearning.com,memrise.com'
+value='livelingua.com,learningtelugu.org/tutorials/first-steps.html,duolingo.com,loecsen.com,optilingo.com,50languages.com,lrngo.com,ilanguages.org,tamilpriyan.com,ilearntamil.com'
+value='bbc.co.uk/languages,britishcouncil.org/english,duolingo.com,manythings.org,talkenglish.com,englishgrammar.org,listenaminute.com,ieltspodcast.com,babbel.com,fluentu.com'
+value='classcentral.com,open.edu/openlearn'
+value='thekitchn.com/collection/cooking-school,blueapron.com,supercook.com,budgetbytes.com'
+value='indiabix.com,testpot.com,sawaal.com,aptitude-test.com/free-aptitude-test/quick-test'
+value='testbook.com,sarkariexam.com,jagranjosh.com,careerpower.in,adda247.com,embibe.com,gradeup.co'
+value='mennohenselmans.com,12minuteathlete.com,ontheregimen.com,syattfitness.com,summertomato.com,johnfawkes.com,girlsgonestrong.com,fatburningman.com'
+value='psychcentral.com,headtohealth.gov.au,headspace.com,verywellmind.com,developgoodhabits.com,happiful.com,themighty.com'
+value='drawspace.com,drawingcoach.com,artyfactory.com,academyart.edu'
+>skill Development </option>
+
+
+
+
+
+</select>
+
+
+
+<button id="button" onclick="get_values();">Randomize</button>
+</aside>
+<aside id="aside2">
+
+<div id="d">
+<p id="di"> </p>
+<p id="s1"  >Click on newtab when the website doesn't load (or) to open in new tab &ensp;</p><a id="lin" href="#"  target="_blank" style="color:#4B3B40;" >newtab</a>
+</div>
+
+</aside> 
+</section>
+ 
+
+<iframe id="myIframe" src=""  style="visibility:hidden;border:none;background:rgba(0,0,0,0.5);" onLoad="this.style.visibility='visible';" height="90%" width="90%"><p>Sorry, this site can't be opened. Please, click again the randomize to load the new sites.</p></iframe>
+
+<footer style="margin-top:1%;border-radius:3px;bottom:2px;postion:relative;display:block;background:rgba(0,0,0,0.8);margin-left:2%;"><div  style="color:#D9B08C;font-size:110%;margin-top:1%;margin-bottom:1%;text-align:left;padding:1%;"><b style="color:white;">Simple Guide</b><br>&ensp;First select the category and then click on the randomize to get a random website of your desired category.<br>&ensp;If you want a different random site then again click on  the randomize.<br><br><b style="color:white;">Incase,when website is not displayed</b><br>&ensp;some websites takes a little bit of extra time to load because of the high resolution contents in the website.<br><br>&ensp;When some websites don't open (or) shows that the site refused to connect,please click on the <b>newtab</b> to  open them in a new tab.</div></footer>
+
+<script type="text/javascript">
+var infolinks_pid = 3266447;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+</body>
+
+</html>
