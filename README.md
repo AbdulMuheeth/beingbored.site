@@ -1,6 +1,2 @@
-# beingbored.site
-My first Website created using html5, css3 , java script
-
-See the live working demo at  : 
-
-https://muheeth10.github.io/beingbored.site/
+Basic website created using HTML5,CSS3,Js(prior level)
+link to live working website :  https://abdulmuheeth.github.io/beingbored.site/
